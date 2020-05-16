@@ -1,0 +1,122 @@
+<script>
+var nums = [1,2,3,4,5,6,7,8,9,10],
+    ranNums = [],
+    i = nums.length,
+    j = 0;
+
+while (i--) {
+    j = Math.floor(Math.random() * (i+1));
+    ranNums.push(nums[j]);
+    nums.splice(j,1);
+}
+
+
+function bingoCall(number) {
+  var call = ""
+
+  switch(number) {
+    case 1: call = "Kelly's Eye, " + "Number " + number;
+    break;
+    case 2: call = "Can't wait to get pissed at the Shoe, " + "Number " + number;
+    break;
+    case 3: call = "Bingo Call, " + "Number " + number;
+    break;
+    case 4: call = "Bingo Call, " + "Number " + number;;
+    break;
+    case 5: call = "Bingo Call, " + "Number " + number;
+    break;
+    case 6: call = "Tom Mix, " + "Number " + number;
+    break;
+    case 7: call = "Lucky Seven, " + "Number " + number;
+    break;
+    case 8: call = "Garden Gate, " + "Number " + number;
+    break;
+    case 9: call = "Doctor's Orders, " + "Number " + number;
+    break;
+    case 10: call = "Cameron's Den, " + "Number " + number;
+    break;
+
+ 
+  }
+  return call
+}
+
+</script>
+
+<body>
+  <h1>MyBuilder Bingo</h1>
+    <button onClick="location.reload();">Start New Game</button>
+  <br>
+  <br>
+  <br>
+   <button onClick="bingoCall(ranNums.pop());">Next Number</button>
+  
+  
+<h1>Hourly running intervals: round 2</h1>
+  <p>Today mike and I will do 2 mile loops every hour for 15 hours. It's 7.52, he's done 3 loops already. At 9 Vicky will be joining for 1 mile loops for 12 hours. I'll need to keep going 3 hours after they've finished to catch up</p>
+  <p>My only tasks for today are as follows
+    <ul>
+      <li>do 10 press ups and 10 crunches/sit ups after each loop. [edit. was down to 5, after back spasm in loop3 , might just give these a rest for a few loops at least</li>
+      <li>Build a webpage that can run a functional bingo number generator personalised for MyBuilder, and make it look good. Or at least respectable</li>
+  </ul>
+  </p>
+<p>08.41 - first lap done, was a bit uncomfortable, panting most of it. And the hill at the end, or incline rather, doesn't seem sustainable for the whole time</p>
+<p>also, inlets (Mike says that's what they might be called) are all but knackered now so had to bore some proper lace holes.</p>
+<p>Thoughts going round:
+  <ul>
+    <li> could I do this for the full 24 hours this time round? Probably not</li>
+    <li>I should probably aim to do 10min/miles from the beginning</li>
+    <li>Maybe 5 press ups and 5 crunches is more sustainable</li>
+    <li>I wonder how long it would take to get to doing 50miles at 8mm as a non stop run</li>
+    <li>I wonder what the incline is on the last stretch</li>
+</ul>
+
+<h1>Down to business</h1>
+<h2>this is the code I'm starting with</h2>
+<p>1.  var nums = [1,2,3,4,5,6,7,8,9,10], <br>
+   2.   ranNums = [],<br>
+   3.   i = nums.length,<br>
+  4.    j = 0;<br>
+5.  <br>
+6.  while (i--) {<br>
+   7.   j = Math.floor(Math.random() * (i+1));<br>
+   8.   ranNums.push(nums[j]);<br>
+   9.   nums.splice(j,1);<br>
+10. }<br>
+11. <br>
+12. <br>
+13. function bingoCall(number) {<br>
+14.   var call = ""<br>
+15. <br>
+16.   switch(number) {<br>
+17.     case 1: call = "Kelly's Eye, " + "Number " + number;<br>
+18.     break;<br>
+19.     case 2: call = "Can't wait to get pissed at the Shoe, " + "Number " + number;<br>
+20.     break;<br>
+21.     case 3: call = "Bingo Call, " + "Number " + number;<br>
+22.     break;<br>
+23.     case 4: call = "Bingo Call, " + "Number " + number;;<br>
+24.     break;<br>
+25.     case 5: call = "Bingo Call, " + "Number " + number;<br>
+26.     break;<br>
+27.     case 6: call = "Tom Mix, " + "Number " + number;<br>
+28.     break;<br>
+29.     case 7: call = "Lucky Seven, " + "Number " + number;<br>
+30.     break;<br>
+31.     case 8: call = "Garden Gate, " + "Number " + number;<br>
+32.     break;<br>
+33.     case 9: call = "Doctor's Orders, " + "Number " + number;<br>
+34.     break;<br>
+35.     case 10: call = "Cameron's Den, " + "Number " + number;<br>
+36.     break;<br>
+37. <br>
+38.  <br>
+39.   }<br>
+40.   return call<br>
+41. }<br>
+42. <br>
+43. bingoCall(ranNums.pop())
+</p>
+<p>I had to copy/paste the random number generator code but I understand it all enough to replicate except for line 7 where I still haven't got my head around "* (i+1)"<br>
+I can randomise a list of number, then pull out the first number in that list and print the relevant bingo call to the screen.<br>Now though, I'm a bit stuck on how I pull the second number from the randomised list...<br>Best guess at the moment is  to have line 43 as the function to call upon the pressing of a button. But seeing as I didn't really retain much of the HTML from freecodecamp, I need to refresh my mind.<br>Edit: now to the top of the page to start building that form...It is 09:54</p>
+</body>
