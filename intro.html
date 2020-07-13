@@ -3,34 +3,38 @@
 <head>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <style>
-
-  #intro_page  {
-    font-family: 'Poppins'; 
-    font-color: #ffffff;
-    font-weight: 900;
-    position: relative;
-    margin: 50px;
-    padding: 30px;
-    border-color: #4a90e2ff;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 10px;
-    background-color: #4a90e2ff;
-    text-align: center;
-    }
-    
-.abutton {
-        display: inline-block;
-        padding: 10px 20px;
+    .button {
+        background-color: #53c653; 
+        border: none;
+        color: #ffffff;
+        padding: 15px 32px;
         text-align: center;
         text-decoration: none;
-        color: #ffffff;
-        background-color: #53c653;
-        border-radius: 6px;
-        outline: none;
-      }      
-    
-    
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        font-family: 'Poppins'; 
+    }
+    body {
+        position: relative;
+        margin: 50px;
+        padding: 30px;
+        text-align: center;
+        font-family: 'Poppins';
+        background-color: #f2f2f2;
+        border-color: #f2f2f2;
+        border-style: solid;
+        border-radius: 10px;
+        
+    }
+    h1 {
+        position: center;
+        color: #4a90e2ff;
+        font-weight: 2000;
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
    
     #question_box {
         
@@ -41,14 +45,18 @@
 </script>
 </head>
 <body>
-    
-        
-   
-  </head>
-  <body>
-  
-  <div id="intro_page"> <h1 style="font-color:#ffffff";>Customer Support <br />Application Assessment</h1>
-      <a class="abutton" href="https://ficklebod.github.io/index.html">Start</a>
-  </div>
-</body>
-  
+    <h1>So, what does MyBuilder do anyway?</h1>
+    <p style="color:#595959">Here's a short video about our service.</p>
+    <br />
+    <br />
+    <div id="question_box">
+        <iframe width="700" height="420"src="https://www.youtube.com/embed/ABDOJo5Z66k">
+        </iframe>
+        <br />
+        <br />
+        <p style="color:#595959">Now, in your own words, sum up in <strong>no more than three sentences</strong> how MyBuilder works.</p>
+        <textarea name="message" rows="10" cols="85">...
+        </textarea>
+        <br />
+        <button class="button" type="button" onclick="#" style="margin-right:250px;">back</button><button class="button" type="button" onclick="#" style="margin-left:250px;">Next</button
+        </div>
