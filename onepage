@@ -1,0 +1,112 @@
+<head>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://ficklebod.github.io/stylesheets/mbstyle.css rel="stylesheet"
+</head>
+<body>
+  <h1>Is this some kind of test? Yes!</h1>
+  <p>MyBuilder is one big happy family, and this assessment will help us determine if your DNA is a match.</p>
+<p>We’ll be asking you to demonstrate your customer service skills, explain your thought processes and give you plenty of opportunity to show off your creativity and personality. It should take roughly an hour to complete and will end with an evaluation of your typing speed. 
+  </p>
+<p>Grab a mug of your favourite beverage, sharpen your pencil, get yourself ready, set your nerves to steady and we hope you find it enjoyable.</p>
+<button class="button" type="submit">Got my cuppa!</button>
+  <h1>Before you begin...</h1>
+  <p>We want to get an idea of how long it takes you to ponder on and then answer each question. So, don't tell us you're ready until you are going to go through it all. </p>
+  <p>We don't want you to rush though, a good answer is better than a fast answer. Just hold off going to refill your cuppa until you've got through all the questions. 
+<form action="#">
+  <p>Name:</p><input class ="info" type="text" placeholder="name" required>
+  <p>Email:</p><input class="info" type="email" placeholder="your email" required><br><br>
+  <button class="button" type="submit">I'm ready!</button>
+  </form><br>
+  <h1>So, what does MyBuilder do anyway?</h1>
+  <p>Here's a short video about our service.</p>
+  <iframe width="700" height="420"src="https://www.youtube.com/embed/ABDOJo5Z66k">
+        </iframe>
+        <br />
+        <br />
+        <p>Now, in your own words, sum up in <strong>no more than three sentences</strong> how MyBuilder works.</p>
+  <form action="#">
+<textarea class="answer" type="text" placeholder="response" required></textarea><br><br>
+    <button class="button" type="submit">Next</button></form>
+  <h1>Oh dear. Write a response to this complaint</h1>
+  <p>I hired one of your tradespeople to give my garden the once over, just weeding and mowing and some other little bits and bobs. He charged me £200 for two days work. My neighbour has the same sized garden as me and her gardener only charged £180. I’m deaf and I can’t help thinking this rogue has taken advantage of me. I’ve been ripped off, I’m not happy and I want this person banned from ever using your website again!!
+  </p>
+<p>Regards,<br>
+Mr A. Noid
+  </p>
+
+<textarea class="answer" type="text" placeholder="response" required></textarea><br><br>
+ <button class="button" type="submit">Send</button>
+  
+  <h1>Refund or reject?</h1>
+  <p>MyBuilder doesn’t provide refunds. A roofer paid £500 on materials for a job which was then cancelled. We invoiced them £18 for the contact details which they’re refusing to pay and will badmouth us across social media unless we waive the fee. They’ve been with us for years and they regularly complain. Do you grant them a refund of reject their request?
+  </p>
+  <p class="bold">Explain your reasoning in less than 100 words</p>
+  
+<textarea class="answer" type="text" placeholder="refund or reject?" required></textarea><br><br>
+<button class="button" type="submit">Send</button>
+  <h1>Reply to this TrustPilot review</h1>
+  <p class="bold">Imagine you are the Head of PR at Banana Brothers Fun Fair.</p>
+  <p>I am thoroughly disgusted by my experience at Banana Brothers. The ‘so called’ candy floss wasn’t flossy enough and dissolved in the rain, the clowns terrified my children, and after the rollercoaster my Grandfather couldn’t walk straight. The cuddly toy I won on the Hook-a-Duck wasn’t cuddly, and the hot dogs were tepid at best. The fortune teller told me that I was destined for good luck, and shortly afterwards my son fell out of the bumper cars. Having never been to a fun fair before, I am extremely unlikely ever to go again.</p>
+<textarea class="answer" type="text" placeholder="TrustPilot" required></textarea><br><br>
+<button class="button" type="submit">Post</button>
+  <h2>Rank the emails below in priority order and explain your reasoning</h2>
+  <ol>
+    <li>An 85 yr old man had a leaky tap. The problem returned a week later but the MyBuilder plumber won’t fix it unless he’s paid a second call out charge.
+    </li>
+    <li>An established user had a job cancelled last minute by a customer. He paid for the customer’s contact details and is now threatening to leave MyBuilder.
+    </li>
+    <li>A new feature on the site has just gone live, a customer emails in to say they’re getting an error message every time they try to use it.
+    </li>
+    <li>A journalist who works for a national newspaper received an abusive message from a tradesperson.
+    </li>
+    <li>A user has a new bank card and can’t work out how to update it to pay their outstanding invoices.	
+    </li>
+  </ol>
+  <input type="radio" id="p1_one" name="Priority1" value="p1_one">Email 1
+<input type="radio" id="p1_two" name="Priority1" value="p1_two">Email 2
+<input type="radio" id="p1_three" name="Priority1" value="p1_three">Email 3
+<input type="radio" id="p1_four" name="Priority1" value="p1_four">Email 4
+<input type="radio" id="p1_five" name="Priority1" value="p1_five">Email 5<br>
+  <br>
+<input type="radio" id="p2_one" name="Priority2" value="p2_one">Email 1
+<input type="radio" id="p2_two" name="Priority2" value="p2_two">Email 2
+<input type="radio" id="p2_three" name="Priority2" value="p2_three">Email 3
+<input type="radio" id="p2_four" name="Priority2" value="p2_four">Email 4
+<input type="radio" id="p2_five" name="Priority2" value="p2_five">Email 5<br>
+  <br>
+<input type="radio" id="p3_one" name="Priority3" value="p3_two">Email 2
+<input type="radio" id="p3_one" name="Priority3" value="p3_two">Email 2
+<input type="radio" id="p3_three" name="Priority3" value="p3_three">Email 3
+<input type="radio" id="p3_four" name="Priority3" value="p3_four">Email 4
+<input type="radio" id="p3_five" name="Priority3" value="p3_five">Email 5<br>
+  <br>
+<input type="radio" id="p4_one" name="Priority4" value="p4_one">Email 1
+<input type="radio" id="p4_two" name="Priority4" value="p4_two">Email 2
+<input type="radio" id="p4_three" name="Priority4" value="p4_three">Email 3
+<input type="radio" id="p4_four" name="Priority4" value="p4_four">Email 4
+<input type="radio" id="p4_five" name="Priority4" value="p4_five">Email 5<br>
+  <br>
+<input type="radio" id="p5_one" name="Priority5" value="p5_one">Email 1
+<input type="radio" id="p5_two" name="Priority5" value="p5_two">Email 2
+<input type="radio" id="p5_three" name="Priority5" value="p5_three">Email 3
+<input type="radio" id="p5_four" name="Priority5" value="p5_four">Email 4
+<input type="radio" id="p5_five" name="Priority5" value="p5_five">Email 5<br><br>
+  
+  <textarea class="answer" type="text" placeholder="Reasoning"></textarea><br><br>
+  <button class="button" type="submit">Submit</button><br><br>
+  <h1>Another question</h1>
+  <p>We want to add one more slide to this assessment and we need your help. What question or task would you suggest and how would you respond to it?
+  </p>
+<textarea class="answer" type="text" placeholder="Another question" required></textarea><br><br>
+  <button class="button" type="submit">Suggest</button><br><br>
+  <h1>Fastest finger first</h1>
+  <h1>And (almost) finally:
+    <h3>What's your favourite joke?</h3>
+<textarea class="answer" type="text" placeholder="Go ahead and make us laugh" required></textarea><br><br>
+    <button class="button" type="submit">punch line</button>
+    <h1>And finally, please assess this assessment</h1>
+    <p>Let us know what you thought about this assessment. We want the Good, the Bad and the Ugly, so don’t hold back.</p>
+ <textarea class="answer" type="text" placeholder="Feedback" required></textarea><br><br>
+  <button class="button" type="submit">Finish</button><br>
+  
+  </body>
