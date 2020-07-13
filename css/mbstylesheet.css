@@ -1,0 +1,54 @@
+body {
+        font-family: 'Poppins';
+        font-size: 20px;
+        color: #595959;
+        width: 60%;
+       
+        margin: 20%;
+}
+iframe {
+  align: left;
+}
+h1 {
+  text-align: left;
+  font-weight: strong;
+  color: #4a90e2ff;
+}
+h2 {
+  text-align: left;
+  font-weight: strong;
+  color: #4a90e2ff;
+}
+h3 {
+  
+}
+p {
+  width: 100%;
+  text-align: justify;
+}
+.answer {
+  width: 100%;
+  height: 100px;
+  background color: #f2f2f2;
+  
+}
+.info {
+  width: 50%;
+}
+.button {
+   background-color: #45c467; 
+        position: left;
+        border: none;
+        color: #ffffff;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 4px;
+        font-family: 'Poppins';
+        font-weight: 700;
+}
+.bold {
+  font-weight: 900;
+}
