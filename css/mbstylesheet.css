@@ -1,7 +1,5 @@
 
 
-textarea {
-    background-color: #f3f3f3ff;
 h1 {
   text-align: left;
   font-weight: strong;
@@ -17,6 +15,10 @@ p {
   width: 100%;
   text-align: justify;
   color: #595959;
+}
+
+textarea {
+    background-color: #f3f3f3ff;
 }
 .answer {
   width: 100%;
