@@ -6,11 +6,16 @@
 <body>
       <div class="question">
     <h1>Fastest finger first</h1>
-    <p>We just need to check you can keep up, so please follow <a href="https://www.typing.com/student/typing-test/1-minute">THIS LINK</a> to take a quick typing speed test.</p>
+    <p>We just need to check you can keep up, so please follow <a href="https://www.typing.com/student/typing-test/1-minute" target="_blank">THIS LINK</a> to take a quick typing speed test.</p>
 
         <p>Or not so quick, I suppose. We’ll find out.
     </p>
-    <p>Once you're done, take a screenshot of your results and post it here.</p>
+    <p>Once you're done, take a screenshot of your results and post it below.</p>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+  Select image to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload Image" name="submit">
+</form>
     <a class="button" href="https://ficklebod.github.io/questions/page_ten.html">All done</a>
       </div>
     </body>
