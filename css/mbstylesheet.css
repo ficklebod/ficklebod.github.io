@@ -1,5 +1,6 @@
 
 .question {
+    padding: 30px;
     margin-top: 5%; 
     margin-left: 20%;
     margine-right: 20%;
@@ -9,6 +10,8 @@
     background-color: #f3f3f3ff;
     width: 60%;        
 }
+textarea {
+    background-color: #f3f3f3ff;
 h1 {
   text-align: left;
   font-weight: strong;
