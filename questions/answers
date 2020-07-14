@@ -1,0 +1,56 @@
+  
+<!DOCTYPE html>
+<head>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://ficklebod.github.io/css/mbstylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Questions</th>
+    <th>Answers/th>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>console.log()</td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td>console.log()</td>
+  </tr>
+  <tr>
+    <td>Write a response</td>
+    <td>console.log()</td>
+  </tr>
+  <tr>
+    <td>refund or reject</td>
+    <td>console.log()</td>
+  </tr>
+  <tr>
+    <td>TrustPilot review/td>
+    <td>console.log()</td>
+  </tr>
+  <tr>
+    <td>Rank Emails</td>
+    <td>console.log(order)</td>
+    <td>console.log(reason)</td>
+  </tr>
+  <tr>
+    <td>Another question</td>
+    <td>console.log(newQuestion)</td>
+    <td>console.log(newAnswer)</td>
+  </tr>
+  <tr>
+    <td>Fastest finger first</td>
+    <td>console.log(image)</td>
+  </tr>
+  <tr>
+    <td>favourite joke</td>
+    <td>console.log()</td>
+  </tr>
+  <tr>
+    <td>Feedback</td>
+    <td>console.log()</td>
+  </tr>
+</table>
