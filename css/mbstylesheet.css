@@ -49,7 +49,22 @@ p {
         border-radius: 4px;
         font-family: 'Poppins';
         font-weight: 700;
+        outline: none;
 }
 .bold {
   font-weight: 900;
 }
+.intro_page  {
+    font-family: 'Poppins'; 
+    color: #ffffff;
+    font-weight: 900;
+    position: relative;
+    margin: 50px;
+    padding: 30px;
+    border-color: #4a90e2ff;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #4a90e2ff;
+    text-align: center;
+    }
