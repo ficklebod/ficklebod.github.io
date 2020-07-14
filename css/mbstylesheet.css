@@ -1,12 +1,14 @@
-body {
-        font-family: 'Poppins';
-        font-size: 20px;
-        color: #595959;
-        background-color: #f3f3f3ff;
-        width: 60%;
-        margin: 20%;
-}
 
+.question {
+    margin-top: 5%; 
+    margin-left: 20%;
+    margine-right: 20%;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #595959;
+    background-color: #f3f3f3ff;
+    width: 60%;        
+}
 h1 {
   text-align: left;
   font-weight: strong;
